@@ -1,0 +1,19 @@
+{
+  "name": "jansroka.com",
+  "version": "0.5.0",
+  "description": "jansroka.com",
+  "dependencies": {
+    "@tailwindcss/typography": "^0.4.1",
+    "autoprefixer": "^10.2.6",
+    "cssnano": "^5.0.6",
+    "postcss": "^8.4.4",
+    "postcss-import": "^14.0.2",
+    "postcss-nested": "^5.0.6",
+    "stylelint": "^14.1.0",
+    "tailwindcss": "^2.2.4"
+  },
+  "scripts": {
+    "dev": "bundle exec jekyll serve --watch --livereload --trace",
+    "build": "bundle exec jekyll build"
+  }
+}

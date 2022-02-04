@@ -1,0 +1,32 @@
+---
+baseurl: "/"
+permalink: pretty
+title: "Impfterm.in"
+markdown: kramdown
+highlighter: rouge
+
+description: Impfterm.in
+url: https://www.impfterm.in
+
+sass:
+  indentWidth: 4
+  style: compact
+  precision: 10
+
+plugins:
+  - jekyll-postcss
+
+exclude:
+  - .gitignore
+  - .stylelintrc.json
+  - favicon.ico
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - node_modules
+  - package-lock.json
+  - package.json
+  - postcss.config.js
+  - README.md
+  - tailwind.config.js
+  - vendor
