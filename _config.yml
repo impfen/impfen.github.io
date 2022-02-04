@@ -5,6 +5,9 @@ title: "Impfterm.in"
 markdown: kramdown
 highlighter: rouge
 
+# write to docs becauase that is what github pages uses
+destination: ./docs
+
 description: Impfterm.in
 url: https://www.impfterm.in
 
